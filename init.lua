@@ -1,8 +1,15 @@
 -- 基础配置
-require('basic')
+require("basic")
 -- Packer插件管理
-require('plugins')
+require("plugins")
 -- 快捷键映射
+require("keymaps")
 -- 主题设置
-require('colorscheme')
-
+require("colorscheme")
+-- 插件设置
+require("plugin-config.nvim-tree")
+require("plugin-config.bufferline")
+require("plugin-config.lualine")
+require("plugin-config.telescope")
+require("plugin-config.dashboard")
+require("plugin-config.project")
