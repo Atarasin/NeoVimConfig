@@ -38,6 +38,8 @@ packer.startup({
         use("hrsh7th/vim-vsnip")
         -- 常见编程语言代码段
         use("rafamadriz/friendly-snippets")
+        -- ui
+        use("lukas-reineke/indent-blankline.nvim")
     end,
     config = {
         -- 并发数限制

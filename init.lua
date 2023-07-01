@@ -14,7 +14,10 @@ require("plugin-config.telescope")
 require("plugin-config.dashboard")
 require("plugin-config.project")
 require("plugin-config.nvim-treesitter")
+require("plugin-config.indent-blankline")
 -- 内置lsp
 require("lsp.setup")
 -- 自动补全
 require("lsp.cmp")
+-- 提示UI
+require("lsp.ui")
