@@ -21,6 +21,23 @@ packer.startup({
         use("ahmedkhalf/project.nvim")
         -- 语法高亮
         use({ "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" })
+        -- ---------------- LSP -----------------
+        use("williamboman/mason.nvim")
+        use("williamboman/mason-lspconfig.nvim")
+        -- lsp config
+        use("neovim/nvim-lspconfig")
+        -- -------------代码补全引擎-------------
+        use("hrsh7th/nvim-cmp")
+        -- 补全源
+        use("hrsh7th/cmp-vsnip")
+        use("hrsh7th/cmp-nvim-lsp")     -- 提供Nvim内置LSP的补全
+        use("hrsh7th/cmp-buffer")       -- 提供buffer的补全
+        use("hrsh7th/cmp-path")         -- 提供路径的补全
+        use("hrsh7th/cmp-cmdline")      -- 提供命令行的补全
+        -- --------------snippet引擎-------------
+        use("hrsh7th/vim-vsnip")
+        -- 常见编程语言代码段
+        use("rafamadriz/friendly-snippets")
     end,
     config = {
         -- 并发数限制
