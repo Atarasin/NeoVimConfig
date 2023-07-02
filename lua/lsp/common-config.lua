@@ -7,7 +7,7 @@ config.keyAttach = function(bufnr)
     end
 
     -- 绑定快捷键
-    require("keymaps").mapLSP(buf_set_keymap)
+    require("core.keymaps").mapLSP(buf_set_keymap)
 end
 
 -- 禁用格式化功能, 交给专门插件处理

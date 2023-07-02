@@ -5,7 +5,7 @@ if not status then
 end
 
 -- 列表操作快捷键
-local list_keys = require('keymaps').nvimTreeList
+local list_keys = require('core.keymaps').nvimTreeList
 nvim_tree.setup({
     -- 不显示 git 状态图标
     git = {
