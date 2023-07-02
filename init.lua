@@ -18,6 +18,8 @@ require("plugin-config.indent-blankline")
 -- 内置lsp
 require("lsp.setup")
 -- 自动补全
-require("lsp.cmp")
+require("autocmp.setup")
 -- 提示UI
 require("lsp.ui")
+-- 代码格式化
+require("format.setup")

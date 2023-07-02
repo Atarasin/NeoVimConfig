@@ -40,6 +40,8 @@ packer.startup({
         use("rafamadriz/friendly-snippets")
         -- ui
         use("lukas-reineke/indent-blankline.nvim")
+        -- 代码格式化
+        use({ "jose-elias-alvarez/null-ls.nvim", requires = "nvim-lua/plenary.nvim" })
     end,
     config = {
         -- 并发数限制
